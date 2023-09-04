@@ -12,6 +12,12 @@ Why choose IPFS?- We chose IPFS because it has more extensive documentation and 
 
 Our solution which is built from scratch eliminates all the mentioned drawbacks and leverages the centralization search advantages like GoogleSE. 
 
+## Contributors
+1. AbrarAhmed647
+2. incognitozoe
+3. jli943
+4. Myself
+
 ## Motivation and objectives
 With the development of computer technology, the scale of data is also increasing, and the decentralized data storage method can meet the data storage needs in the big data environment. The Interplanetary File System[1] created a peer-to-peer (P2P) distributed file system, upgraded the existing network structure, and realized decentralized storage.
 For each file uploaded to the IPFS system, the system will return a unique file identifier CID(content identifier), but the resource requester can download the corresponding file in IPFS only by providing the CID accurately. IPFS only supports CID-based data acquisition methods, which restricts its application. Due to the lack of corresponding search functions, it is difficult for resource requesters to obtain relevant data through keywords or other descriptive information. Studying the data acquisition method of IPFS can help users search for data according to their own needs, which is conducive to the sharing and discovery of IPFS data, and makes IPFS meet more application scenarios. In addition, when the file identifier is lost or forgotten, the original data can be obtained in other ways to avoid data "lost connection". Even with trying to locate files by CID, the speed at which these queries get served does not compare with the speed provided by Google, Bing, or other centralized search engines.
